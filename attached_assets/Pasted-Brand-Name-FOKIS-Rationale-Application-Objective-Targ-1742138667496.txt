@@ -1,0 +1,292 @@
+Brand Name: FOKIS
+Rationale:
+________________________________________
+Application Objective
+Target Audience:
+•	Demographics:
+o	Location: Urban and rural Haiti (70% mobile-only users).
+o	Age: 15–50 (focus on youth and working-class adults).
+o	Language: Haitian Creole (primary), French (secondary).
+•	Psychographics:
+o	Seek affordable, accessible, and culturally relevant information.
+o	Value community empowerment and economic opportunities.
+Value Proposition:
+•	Solves information gaps in underserved regions via offline-first design and SMS integration.
+•	Addresses cultural disconnect by prioritizing Haitian Creole content and local voices.
+________________________________________
+2. Requirements
+Functional Requirements
+1.	User-Facing Features:
+o	Multi-Language Support: Haitian Creole and French toggle and english
+o	Hyperlocal News Feed: Geotagged articles, weather alerts, and market prices.
+o	Citizen Journalism Portal: Users submit text/audio/video reports, moderated via AI + admin oversight.
+o	Offline Mode: Downloadable articles and educational resources (e.g., farming guides).
+o	SMS Integration: Receive alerts and submit reports via text (e.g., Twilio API).
+o	Dark mode and light mode
+2.	Admin Interface:
+o	Dashboard: Real-time analytics (user engagement, content performance).
+o	User Management: Ban/approve users, assign roles (e.g., moderators, verified journalists).
+o	Content Moderation: Review/flag user submissions, AI-assisted misinformation detection.
+o	Alert System: Push emergency notifications (e.g., hurricanes, protests).
+o	Localization Tools: Edit/translate content for regional dialects.
+________________________________________
+Non-Functional Requirements
+•	Performance:
+o	Load time <3 seconds on 2G networks.
+o	Optimized for low-RAM devices (common in Haiti).
+•	Security:
+o	End-to-end encryption for user data and submissions.
+o	Role-based access control (RBAC) for admin roles.
+•	Scalability:
+o	Support 100k+ concurrent users during disasters.
+•	Accessibility:
+o	Screen-reader compatibility, voice navigation, and high-contrast mode.
+________________________________________
+Technical Specifications
+•	Frontend:
+o	React.js + Tailwind CSS for responsive design.
+o	Progressive Web App (PWA) for offline functionality.
+•	Backend:
+o	Node.js + Firebase (Firestore for real-time data, Auth for user management).
+o	AWS Lambda for SMS/voice API integrations.
+•	AI/ML Tools:
+o	Hugging Face for Creole NLP (translation, sentiment analysis).
+o	OpenAI for automated article summaries.
+•	Admin Panel:
+o	Custom dashboard built with Retool or React Admin.
+o	Real-time monitoring via Grafana/Prometheus.
+________________________________________
+Admin Interface Requirements
+1.	Dashboard:
+o	Metrics: Daily active users, content engagement, revenue (ads/subscriptions).
+o	Map overlay of user-reported incidents.
+2.	Content Management:
+o	Bulk upload/edit tools for news, educational resources, and alerts.
+o	Schedule posts (e.g., agricultural tips ahead of rainy season).
+3.	Moderation Workflow:
+o	Flagged content queue with AI-priority sorting.
+o	Audit logs for transparency.
+4.	Localization:
+o	In-app translation editor for regional dialects (e.g., Northern vs. Southern Creole).
+________________________________________
+Key Differentiation from [TARGET_WEBSITE]
+✅ Admin Control: Granular tools to manage hyperlocal content and emergencies.
+✅ Creole-First Design: Language and UI tailored for Haitian literacy levels.
+✅ Offline/SMS Access: No internet required for critical features.
+Let me know if you’d like to expand on monetization strategies or UX wireframes! 🌟
+________________________________________
+1. Kategori Prensipal ak Soukategori
+(Tou disponib an Kreyòl, Français, English)
+A. Aktyalite 
+•	Soukategori: 
+1 politik
+2 entanasyonal 
+3 sport 
+4 edikasyon 
+5 anvironman
+alet
+Etc..
+B. Ekonomi & Finans
+•	Soukategori:
+1.	Makroekonomi: Echanj dola, enflasyon.
+2.	Kriptomonna: Bitcoin ann Ayiti, blockchain pou devlopman.
+3.	Mikwokredi: Òganizasyon tankou Fonkoze.
+4.	Komès Lokal: Pwodui ayisyen kap vann sou Amazon/Etsy.
+C. Teknoloji & Entèlijans Atifisyèl
+•	Soukategori:
+1.	AI pou Devlopman: ChatGPT pou edikasyon, ChatGPT an Kreyòl.
+2.	Startup Teknoloji: Jèn antrepwò ki kreye apps lokal.
+3.	Etik AI: Diskisyon sou enpak sosyal.
+D. Agrikilti & Enèji Renouvlab
+•	Soukategori:
+1.	Agwobiznis: Ekspòtasyon mango, kafe.
+2.	Sistèm Irigasyon: Teknik modèn pou peyizan.
+3.	Solaire: Pwojè enèji solè nan zòn riral.
+4.	Biyogaz: Dechè agrikòl transfòme an enèji.
+E. Kilti & Medya
+•	Soukategori:
+1.	Sinema Ayisyen: Fim endepandan ak dokimantè.
+2.	Littérature: Woman ekri an Kreyòl.
+3.	Medya Dijital: Podcast FOKIS, YouTube kanal kiltirèl.
+F. Sante & Byennèt
+•	Soukategori:
+1.	Sante Piblik: Kampay vaksen, epidemi.
+2.	psikolojik
+3.	Telemedsin: etc..
+G. Edikasyon & Job
+•	Soukategori:
+1.	Inivèsite: Pwogram e-learning ak inivèsite entènasyonal.
+2.	Bous Detid: Opòtinite pou etidye aletranje.
+3.	Anons travay
+4.	Appel d’of etc..
+H. Anviwònman
+•	Soukategori:
+1.	Deforestasyon: Pwojè replantasyon.
+2.	Katastwòf: Jesyon risk ak repons IMO.
+________________________________________
+2. Karakteristik Pou Jèn Yo
+Pou asire jèn yo ka « konsilte » ak « aprann » san yo pa santi yo pa entimide:
+A. Fòma Mizik/Sou Entènèt
+•	Rezo Sosyal Entegre: Pataje atik sou WhatsApp/TikTok ak kout rezime anfòm pou rezo.
+•	Podkast Kout: Rezime 5 minit pou chak gwo koze.
+B. Edikasyon Entèaktif
+•	Kou Gratis: Videyo YouTube ki montre:
+o	Kijan yo konprann bidjè leta?
+o	Kijan kriptomonna fonksyone?
+•	Similasyon Je: Egzanp: Jwe yon jwèt pou aprann jere yon kooperativ agrikòl.
+________________________________________
+3. Enplementasyon Teknik
+Frontend
+•	Framework: Next.js pou pèfòmans ak SEO.
+•	Design:
+o	Mòd Serye: Aparans Le Monde-style pou atik politik/ekonomi.
+o	Mòd Dinamik: Layout ki sanble ak TikTok pou kontni kiltirèl/medya.
+•	Aksè Milting:
+o	Dark Mode.
+o	Opyon « Rezime pou Débutan » (eksplikasyon senp nan fen atik konplèks).
+Backend
+•	CMS: Strapi pou jere plis pase 100 kategori ak tradiksyon.
+•	AI Integration:
+o	Otorezime: GPT-4 pou rezime atik an 3 lang.
+o	Detèksyon Fakenews: Model NLP ki antrene sou koze ayisyen.
+•	Analitik:
+o	Sèvi ak Mixpanel pou tracke ki kategori jèn yo itilize pi plis.
+________________________________________
+4. Monetizasyon
+•	Abònman Premium ($10/mwa):
+o	Aksè a rapò rechèch apwofondi (egzanp: « Enpak AI sou ekonomi Ayiti »).
+o	Webinè ak ekspè (ekonomis, chèchè).
+•	Sponsorizasyon:
+o	ONG ki peye pou pibliye rapò nan kategori Agrikilti/Enèji.
+o	Inivèsite ki sponsorize bous detid.
+•	Envestisman:
+o	Patenarya ak Binance pou ede kreye yon eko-sistèm kripto ann Ayiti.
+FOKIS: Dokiman Espesifikasyon Konplè ak Tout Fonksyonalite
+Objektif: Yon platfòm nouvèl dijital konplè, adapte pou kontèks ayisyen, ki konbine seryozite jounalis, aksè pou tout moun, ak teknoloji modèn.
+________________________________________
+1. Fonksyonalite Itilizatè
+A. Kont Itilizatè
+•	Enskripsyon/Idantifikasyon:
+o	Opsyon Sign in with Google/Facebook/WhatsApp.
+o	Verifikasyon SMS pou moun ki pa gen imèl.
+•	Pwofil Pèsonalize:
+o	Preferans lang (Kreyòl/Français/English).
+o	Abònman kategori (e.g., "Agrikilti" oswa "Kripto").
+o	Istorik lekti ak atik ki sere.
+•	Nòtifikasyon:
+o	Alert SMS/Email pou koze ki gen rapò ak preferans yo.
+o	Rappel pou evènman (e.g., "Webinè sou Agrikilti Demen!").
+B. Entèaktivite
+•	Kòmantè ak Debà:
+o	Pèmèt kòmantè an odio oswa tèks.
+o	Modèrasyon otomatik ak mo kle entèdi (e.g., insilt).
+•	Sondaj & Ankèt:
+o	Sondaj an tan reyèl (e.g., "Ki jan ou evalye travay Prezidan an?").
+o	Rezilta pataje sou rezo sosyal.
+•	Pataj Kontni:
+o	Bouton "Pataje sou WhatsApp/TikTok" ak rezime otomatik pou chak atik.
+C. Pèsonalizasyon
+•	Fòma Mizik:
+o	Chwazi ant "Mòd Serye" (tankou Le Monde) oswa "Mòd Dinamik" (layout tankou TikTok).
+o	Opysyon Rezime pou Débutan (eksplikasyon senp nan fen atik konplèks).
+•	Jwèt Edikatif:
+o	Mini-je pou aprann konsep ekonomik oswa politik (e.g., "Jere Yon Kooperativ").
+________________________________________
+2. Fonksyonalite Kontni
+A. Jesyon Atik & Medya
+•	Pibliye Kontni:
+o	Fòm entèaktif pou jounalis/otè, ki sipòte tèks, videyo, odio, enfografik.
+o	Entegrasyon direk ak Google Docs pou redaksyon an kolaborasyon.
+•	Tradiksyon Otomatik:
+o	Atik tradwi an 3 lang (Kreyòl/Français/English) avèk API Google Translate, ak korèksyon mannèl.
+•	Kalèdriye Editòryal:
+o	Planifye piblikasyon atik ak medya pou dat espesifik (e.g., jou fèt endepandans).
+B. Rechèch Avanse
+•	Moteur Rechèch Entèlijan:
+o	Rechèch pa mo kle, lokasyon, oswa menm imaj (e.g., chèche foto manifestasyon).
+o	Filtre pa dat, kategori, oswa kalite kontni (podkast, atik, videyo).
+•	Tags Dinamik:
+o	Egzanp: #KriptoAyiti, #SiklònAlert, #StartupJèn.
+o	Itilizatè ka swiv tags pou rezime chak semen.
+C. Medya Rich
+•	Podkast Entèaktif:
+o	Koute podkast dirèkteman sou sit la oswa sou WhatsApp.
+o	Poze kesyon ak oditè yo nan tan reyèl pandan emisyon an.
+•	Videyo Offline:
+o	Telechaje videyo pou gade san entènèt.
+o	Sous tit an Kreyòl pou videyo an Fransè/English.
+________________________________________
+3. Fonksyonalite Admin
+A. Dashboard Granilè
+•	Jesyon Itilizatè:
+o	Bloke/koreksyon kont, ajoute wòl (jounalis, modèratè).
+•	Modèrasyon:
+o	Filtrè AI pou detekte fakenews oswa kòmantè abizan.
+o	Priority Queue pou signalman rapid.
+•	Analitik:
+o	Jwenn rapò sou pi gwo koze, demografi itilizatè, ak revni.
+B. Kontwòl Kontni
+•	Pibliye nan plizyè lang:
+o	Koreksyon/traduksyon kontni avèk ekip multilingual.
+•	Jesyon Anons:
+o	Planifye piblisite ak anons sponsorize.
+C. Sekirite
+•	Chifreman E2E:
+o	Pou done pèsonèl ak kominikasyon.
+•	Sauvegad Otomatik:
+o	Backup chak 12 èdtan sou AWS S3.
+________________________________________
+4. Teknoloji Ak Enfrastrikti
+Frontend:
+•	Framework: Next.js + React pou pèfòmans ak SEO.
+•	Design System:
+o	Komponent Tailwind CSS ki reyitilizab.
+o	Tèm koulè adaptatif (klè/fonble).
+•	Mobile-First:
+o	Layout ki optimize pou telefòn ki ba pri (e.g., TECNO).
+Backend:
+•	Database: PostgreSQL pou done konplèks + Redis pou cache.
+•	Cloud: AWS EC2/Lambda pou scalability.
+•	APIs:
+o	Google Maps API pou kat jeyolokalizasyon.
+o	Twilio pou SMS/WhatsApp notifikasyon.
+AI/ML:
+•	Rezime Otomatik:
+o	GPT-4 pou kreye rezime atik an 3 lang.
+•	Deteksyon Fakenews:
+o	Modèl NLP antrene sou koze ayisyen.
+________________________________________
+5. Fonksyonalite Espesyal Pou Ayiti
+A. Aksè pou Zòn Riral
+•	Mòd Ba Bann:
+o	Kompresyon imaj/videyo otomatik.
+o	Rann tèks anvan medya.
+•	SMS Gateway:
+o	Resevwa atik ak alerte pa SMS san entènèt.
+B. Katastwòf & Sekirite
+•	Alerte Anvan Katastwòf:
+o	Kolaborasyon ak IMO/Croix-Rouge pou avètisman siklòn.
+o	Gid Souvni pou jere kriz.
+•	Trouve Fanmi:
+o	Platfòm pou idantifye moun ki pèdi apre tranblemanntè.
+C. Eko-sistèm Lokal
+•	Mache Dijital:
+o	Peyizan ka vann pwodui agrikòl dirèkteman sou sit la.
+•	Finansman Koperativ:
+o	Kolektif sou entènèt pou sipòte pwojè lokal.
+________________________________________
+6. Monetizasyon
+•	Abònman Premium ($7/mwa):
+o	Atik eksklizif, podkast san piblisite, aksè webinè.
+•	Sponsorizasyon:
+o	ONG peye pou rapò detaye (e.g., "Enèji Renouvlab ann Ayiti").
+•	Komisyon sou Mache:
+o	5% sou tout komès nan seksyon "Mache Agrikòl".
+•	Formasyon Peye:
+o	Kou sou "Kijan pou kreye yon biznis dijital" ($20).
+________________________________________
+7. Diferans Kle
+✅ Balans Ant Entènasyonal & Lokal: Kontni global ak aplikasyon lokal (e.g., "Kijan ChatGPT ka ede peyizan?").
+✅ Teknoloji Adapte: Sipòte telefòn ki ba pri ak entènèt limite.
+✅ Piblik Sib Tèm: Jèn, pwofesyonèl, ak moun ki pa gen anpil edikasyon.
+
