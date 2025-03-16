@@ -1,5 +1,6 @@
 import { ArticleList } from "@/components/articles/article-list";
 import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 import { Sidebar } from "@/components/layout/sidebar";
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
           <ArticleList />
         </main>
       </div>
+      <Footer />
     </div>
   );
 }

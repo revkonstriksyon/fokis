@@ -22,6 +22,7 @@ import {
 } from "@/components/ui/form";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 
 export default function AuthPage() {
   const { loginMutation, registerMutation, user } = useAuth();
@@ -154,6 +155,7 @@ export default function AuthPage() {
           </CardContent>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 }

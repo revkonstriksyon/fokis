@@ -1,0 +1,48 @@
+FOKIS: Yon Platfòm Nouvèl Dijital Konplè pou Ayiti
+1. Rasyonèl
+Objektif: Bay aksè a enfòmasyon serye, aksesib ak kiltirèlman adapte pou popilasyon ayisyèn nan, menm san entènèt.
+Odyans Sib:
+
+Demografi: Itilizatè ayisyen nan zòn iben ak riral (70% sèlman sou mobil).
+Laj: 15–50 an (jèn ak adilt k ap travay).
+Lang: Kreyòl ayisyen (priyorite), fransè (segondè), angle (opsyon).
+Psikografi: Itilizatè k ap chèche enfòmasyon abòdab, senp, epi itil pou devlopman ekonomik ak sosyal.
+Vale Ajoute:
+✅ Rezoud pwoblèm mank enfòmasyon ak kontni offline ak SMS.
+✅ Ranfòse idantite kiltirèl ak kontni Kreyòl ak jounalis lokal.
+✅ Ofri opòtinite ekonomik atravè nouvèl sou travay, edikasyon, ak finans.
+
+2. Karakteristik prensipal
+Fonksyonalite Itilizatè:
+✅ Sipò plizyè lang (Kreyòl, Fransè, Angle).
+✅ Fil nouvèl lokal (ak alèt sou move tan, mache, ak evènman).
+✅ Jounalis Sitwayen (Itilizatè yo ka voye nouvèl an tèks, odyo, oswa videyo).
+✅ Mòd Offline (Telechaje atik, gid edikatif, elatriye).
+✅ SMS Entègasyon (Voye/oswa resevwa nouvèl pa mesaj).
+✅ Dark mode ak Light mode pou konpatibilite ak tout aparèy.
+
+Panèl Administrasyon:
+✅ Dashboard ak estatistik itilizatè, angajman kontni.
+✅ Jesyon itilizatè (sanksyon, wòl moderatè, jounalis verifye).
+✅ Modération kontni ak AI (sistèm pou detekte fo nouvèl).
+✅ Sistèm alèt ijans (e.g. siklòn, manifestasyon).
+✅ Outil tradiksyon lokal (adaptasyon dyalèk riral/iben).
+
+Kategori Kontni:
+📰 Aktyalite: Politik, espò, edikasyon, anviwònman, elatriye.
+💰 Ekonomi & Finans: Kriptomonna, makroekonomi, mikwokredi.
+💡 Teknoloji & AI: Devlopman, etik AI, startup lokal.
+🌱 Agrikilti & Enèji: Agwobiznis, solè, irigasyon.
+🎭 Kilti & Medya: Sinema ayisyen, literati, podcast.
+🩺 Sante & Byennèt: Sante piblik, telemedsin, sikoloji.
+🎓 Edikasyon & Travay: Bous etid, anons travay, fòmasyon.
+🌍 Anviwònman: Deforestasyon, katastwòf natirèl.
+
+3. Karakteristik Espesyal pou Jèn yo:
+🎵 Fòma Mizik & Entèaktif:
+✅ Kontni kout sou rezo sosyal (WhatsApp, TikTok).
+✅ Podcast 5 minit sou sijè enpòtan.
+📚 Edikasyon Entèaktif:
+✅ Videyo edikatif: Egzanp: “Kijan pou konprann bidjè Leta?”
+✅ Jwèt edikatif: Egzanp: “Jere yon kooperativ agrikòl.”
+
