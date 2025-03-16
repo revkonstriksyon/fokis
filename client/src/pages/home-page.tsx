@@ -2,6 +2,9 @@ import { ArticleList } from "@/components/articles/article-list";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Sidebar } from "@/components/layout/sidebar";
+import { FeaturedArticles } from "@/components/home/featured-articles";
+import { AlertBanner } from "@/components/home/alert-banner";
+import { SubmitReportButton } from "@/components/home/submit-report-button";
 
 export default function HomePage() {
   return (
@@ -12,6 +15,9 @@ export default function HomePage() {
           <Sidebar />
         </aside>
         <main className="relative py-6">
+          <AlertBanner />
+          <FeaturedArticles />
+          <SubmitReportButton />
           <ArticleList />
         </main>
       </div>

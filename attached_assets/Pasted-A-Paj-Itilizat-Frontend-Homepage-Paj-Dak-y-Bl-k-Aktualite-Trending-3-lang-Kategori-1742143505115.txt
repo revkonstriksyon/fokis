@@ -1,0 +1,211 @@
+A. Paj Itilizatè (Frontend)
+Homepage (Paj Dakèy)
+
+Blòk Aktualite "Trending" (3 lang).
+
+Kategori prensipal ak sous-kategori (egz: Politik, Agrikilti).
+
+Bann niyaj alè (Siklòn, Grangou, etc.).
+
+Bouton "Soumèt Rapò" pou jounalis sitwayen.
+
+Paj Kategori (egz: Agrikilti & Enèji)
+
+Filtre pa sous-kategori (Sistèm Irigasyon, Biyogaz, Solaire).
+
+Atik ki popilè, videyo eksplikatif, enfografik.
+
+Opyon "Telechaje pou Offline".
+
+Paj Atik/Medya
+
+Atik ak tradiksyon an 3 lang.
+
+Zòn kòmantè (odio/tèks) ak bouton pataj (WhatsApp/TikTok).
+
+Rezime otomatik (GPT-4) ak "Rezime pou Débutan".
+
+Lyen pou jwèt edikatif ki gen rapò (egz: Similasyon Jesyon Kooperativ).
+
+Paj Jounalis Sitwayen
+
+Fòm pou soumèt rapò (tèks, odio, videyo).
+
+Gid pou kijan pou ekri rapò (egzanp an Kreyòl).
+
+Track pwogrè moderasyon (egz: "Rapò w ap revize").
+
+Paj Pwofil Itilizatè
+
+Preferans (lang, kategori, mòd klè/fonble).
+
+Atik telechaje pou offline.
+
+Abònman premium (si aplikab).
+
+Paj Rechèch
+
+Rechèch pa mo kle, lokasyon, oswa imaj.
+
+Filtre pa kalite kontni (atik, podkast, videyo).
+
+Paj Aksè Offline
+
+Lis atik/videyo ki deja telechaje.
+
+Gid pou konekte ak SMS Gateway.
+
+Paj SMS Gateway
+
+Enstriksyon pou resevwa atik/alèt pa SMS.
+
+Nimewo kout pou chèche kontni (egz: Tekst "ALÈT" pou 4545).
+
+Paj Paramèt
+
+Chwazi lang, mòd klè/fonble, notifikasyon.
+
+Opsyon aksè miltimedya (redwi imaj pou ekonomi data).
+
+Paj Sondaj & Ankèt
+
+Patisipe nan sondaj aktyèl (egz: Kòmantè Prezidan an).
+
+Rezilta an tan reyèl ak pataj sosyal.
+
+Paj Edikasyon Entèaktif
+
+Kou gratis (videyo YouTube, PDF).
+
+Jwèt edikatif (egz: Jere Yon Biznis Agrikòl).
+
+Paj Katastwòf & Sekirite
+
+Alèt anvan siklòn/tranblemanntè.
+
+Gid souvni ak nimewo èd IMO/Croix-Rouge.
+
+Paj Mache Dijital
+
+Peyizan kap vann pwodui agrikòl.
+
+Filtre pa rejyon (Nò, Sid, Latibonit).
+
+Paj Abònman
+
+Detay sou abònman premium ($7/mwa).
+
+Pwomosyon pou etidyan ak koperativ.
+
+Paj Kontak & Ekip
+
+Fòm kontak, lis jounalis, patnè (ONG, inivèsite).
+
+B. Paj Admin (Backend)
+Paj Login Admin
+
+Two-faktè otantifikasyon (SMS oswa Google Authenticator).
+
+Dashboard Prensipal
+
+Metrik kle (itilizatè aktif, revni, kontni popilè).
+
+Kat jeyolokalizasyon pou rapò sitwayen yo.
+
+Paj Jesyon Itilizatè
+
+Bloke/korekte kont, ajoute wòl (modèratè, jounalis).
+
+Vèifye itilizatè pa SMS.
+
+Paj Moderasyon Kontni
+
+File rapò sitwayen yo ak priyorite AI.
+
+Audit log pou chanjman admin yo.
+
+Paj Pibliye Atik
+
+Fòm avanse ak sipòt pou kolaborasyon (Google Docs).
+
+Planifye pòs pou dat espesifik.
+
+Paj Alèt & Notifikasyon
+
+Voye avètisman siklòn/protestasyon pa SMS/email.
+
+Kolaborasyon ak IMO pou kontni otorize.
+
+Paj Tradiksyon/Lokalizasyon
+
+Tradiksyon otomatik (Google Translate) + koreksyon mannèl.
+
+Adapte kontni pou dyalèk rejyonal (egz: Kwéyòl Okay).
+
+Paj Analitik
+
+Rapò détaillé sou demografi itilizatè, revni, engajman.
+
+Track kijan kontni voye atisit (egz: 50% pataj sou WhatsApp).
+
+Paj Jesyon Anons
+
+Planifye piblisite ak kontni sponsorize.
+
+Track konvèsyon (kantite klik sou anons agrikòl).
+
+Paj Sekirite
+
+Aktive/désaktive aksè admin.
+
+Backup chak 12 èdtan ak opsyon restore.
+
+C. Paj Espesyal (Fonksyonalite Teknik)
+Paj Entegrasyon AI
+
+Konfigirasyon GPT-4 pou rezime otomatik.
+
+Paramèt deteksyon fakenews (ajiste mo kle pou Ayiti).
+
+Paj Entèfas SMS/WhatsApp
+
+Teste mesaj ak alèt (Twilio API).
+
+Kod pou reponn otomatik (egz: "Voye NOUVEL pou jwenn atik resan").
+
+Paj Backup/Restore
+
+Telechaje/uploade backup sou AWS S3.
+
+Paj Pèfòmans
+
+Optmize imaj/videyo (konpresyon otomatik).
+
+Tès vitès sou rezo 2G/3G.
+
+D. Paj Mobil (PWA)
+Vèsyon Mobil Akselere (AMP)
+
+Layout senp pou telefòn ki pa gen gwo pwosesè.
+
+Swipe navigation (tankou TikTok) pou kategori kiltirèl.
+
+Paj Notifikasyon Mobil
+
+Alert anvan katastwòf ak bouton "Mwen an sekirite".
+
+E. Paj Legal
+Paj Kondisyon Itilizasyon
+
+Eksplike règ pou jounalis sitwayen ak modèrasyon.
+
+Paj Politik Konfidansyalite
+
+Detay sou sekirite done ak chifreman E2E.
+
+Nòt:
+Tout paj yo dwe responsive (adaptatif pou mobil/Desktop).
+
+Chak paj genyen bouton "Chanjè Lang" (Kreyòl/Français/English).
+
+Itilizatè kapab switche ant "Mòd Serye" (Le Monde) ak "Mòd Dinamik" (TikTok).
