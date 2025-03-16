@@ -9,6 +9,9 @@ import NotFound from "@/pages/not-found";
 import HomePage from "@/pages/home-page";
 import AuthPage from "@/pages/auth-page";
 import AdminPage from "@/pages/admin-page";
+import CategoryPage from "@/pages/category-page";
+import ArticlePage from "@/pages/article-page";
+import SubmitReportPage from "@/pages/submit-report-page";
 import { ProtectedRoute } from "./lib/protected-route";
 
 function Router() {
@@ -16,6 +19,9 @@ function Router() {
     <Switch>
       <Route path="/" component={HomePage} />
       <Route path="/auth" component={AuthPage} />
+      <Route path="/category/:slug" component={CategoryPage} />
+      <Route path="/article/:id" component={ArticlePage} />
+      <Route path="/submit-report" component={SubmitReportPage} />
       <ProtectedRoute path="/admin" component={AdminPage} />
       <Route component={NotFound} />
     </Switch>
