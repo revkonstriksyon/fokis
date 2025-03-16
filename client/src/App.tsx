@@ -8,10 +8,10 @@ import { ThemeProvider } from "@/hooks/use-theme";
 import NotFound from "@/pages/not-found";
 import HomePage from "@/pages/home-page";
 import AuthPage from "@/pages/auth-page";
-import AdminPage from "@/pages/admin-page";
 import CategoryPage from "@/pages/category-page";
 import ArticlePage from "@/pages/article-page";
 import SubmitReportPage from "@/pages/submit-report-page";
+import AdminDashboardPage from "@/pages/admin/dashboard";
 import { ProtectedRoute } from "./lib/protected-route";
 
 function Router() {
@@ -22,7 +22,7 @@ function Router() {
       <Route path="/category/:slug" component={CategoryPage} />
       <Route path="/article/:id" component={ArticlePage} />
       <Route path="/submit-report" component={SubmitReportPage} />
-      <ProtectedRoute path="/admin" component={AdminPage} />
+      <ProtectedRoute path="/admin" component={AdminDashboardPage} />
       <Route component={NotFound} />
     </Switch>
   );
